@@ -1,0 +1,43 @@
+.hero-section {
+    .text-heading {
+        display: flex;
+        font-family: "Broken Detroit";
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        .subtitle {
+            color: var(--white, #FFF);
+            font-family: "Lexend Giga";
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            letter-spacing: -9.28px;
+        }
+
+        .title {
+            color: var(--white, #fff);
+            font-family: "Broken Detroit";
+            font-size: 230px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 18.4px;
+        }
+    }
+
+    .img-container {
+        width: 688px;
+        height: 688px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .character {
+            object-fit: cover;
+        }
+    }
+}
