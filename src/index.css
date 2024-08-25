@@ -1,76 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap");
 
 :root {
-  --bg-color: #131313;
-  --violet: #99449F;
-  --white: #FFFFFF;
-  --card-color-healer: #D616A1;
-  --card-color-hunter: #4D098C;
-  --card-color-shadow: #590E7B;
-  --card-color-pirate: #C300E3;
-  --card-color-arrow: #FF4AFF;
-  --card-color-ghost: #7B149E;
+    --bg-color: #131313;
+    --violet: #99449f;
+    --white: #ffffff;
+    --card-color-healer: #d616a1;
+    --card-color-hunter: #4d098c;
+    --card-color-shadow: #590e7b;
+    --card-color-pirate: #c300e3;
+    --card-color-arrow: #ff4aff;
+    --card-color-ghost: #7b149e;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background: var(--bg-color);
+    background: var(--bg-color);
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
 }
 
-.site-header {
-  position: relative;
-  height: 1080px;
-}
-
-.site-header::before {
-  content: '';
-  z-index: -1000;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: url(./assets/background.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.site-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: #131313;
-    --violet: #99449F;
-    --white: #FFFFFF;
-    --card-color-healer: #D616A1;
-    --card-color-hunter: #4D098C;
-    --card-color-shadow: #590E7B;
-    --card-color-pirate: #C300E3;
-    --card-color-arrow: #FF4AFF;
-    --card-color-ghost: #7B149E;
-  }
+    :root {
+        --bg-color: #131313;
+        --violet: #99449f;
+        --white: #ffffff;
+        --card-color-healer: #d616a1;
+        --card-color-hunter: #4d098c;
+        --card-color-shadow: #590e7b;
+        --card-color-pirate: #c300e3;
+        --card-color-arrow: #ff4aff;
+        --card-color-ghost: #7b149e;
+    }
 }
 
 @font-face {
-  font-family: "Broken Detroit";
-  src: url(./brokendetroitrusbylyajka.otf);
+    font-family: "Broken Detroit";
+    src: url(./brokendetroitrusbylyajka.otf);
 }
