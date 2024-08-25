@@ -1,0 +1,51 @@
+.site-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1844px;
+    height: 609px;
+
+    & > * {
+        flex-shrink: 1;
+    }
+
+    .desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1023px;
+
+        p {
+            color: var(--white);
+            text-align: center;
+            font-family: "Lexend Giga";
+            font-size: 24px;
+        }
+    }
+
+    .background {
+        & > * {
+            position: absolute;
+            z-index: -100;
+        }
+
+        .left-stone {
+            top: 0;
+            left: 340px;
+            max-width: 58px;
+        }
+        .right-stone {
+            top: 29px;
+            right: 0;
+            max-width: 123px;
+        }
+        .gun {
+            max-width: 367px;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
