@@ -1,15 +1,17 @@
+import Header from "./components/header/Header"
+import InfoSection from './components/infoSection/InfoSection'
+import CharacterSection from "./components/characterSection/CharacterSection";
 import Footer from "./components/footer/Footer";
-import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+
+import './index.css';
 
 export default function App() {
   return (
-    <>
-      <header className="site-header">
-        <Navbar />
-        <Hero />
-      </header>
+    <div className="site-container">
+      <Header />
+      <InfoSection />
+      <CharacterSection />
       <Footer />
-    </>
+    </div>
   )
 }
