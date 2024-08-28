@@ -1,0 +1,76 @@
+.site-footer {
+    width: 100%;
+    padding: 24px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .sub-heading {
+            color: #fff;
+            font-family: "Lexend Giga";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .site-name {
+            color: #fff;
+            font-family: "Broken Detroit";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.92px;
+        }
+    }
+
+    .site-rights {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .rights {
+            color: var(--white, #fff);
+            font-family: "Lexend Giga";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .published-year {
+            color: var(--violet, #99449f);
+            font-family: "Lexend Giga";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 12px;
+        list-style: none;
+
+        .social-icon {
+            display: block;
+
+            .link{
+                cursor: pointer;
+            }
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
