@@ -1,0 +1,27 @@
+.hero-section {
+    margin-bottom: 200px;
+
+    .title {
+        color: var(--white);
+        font-family: "Broken Detroit";
+        font-size: 96px;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 9px;
+        margin-bottom: 150px;
+
+        .colored {
+            color: var(--violet);
+        }
+    }
+
+    .card-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        row-gap: 80px;
+    }
+}
