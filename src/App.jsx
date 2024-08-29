@@ -7,6 +7,7 @@ import CardSection from "./components/cardSection/CardSection";
 import Footer from "./components/footer/Footer";
 
 import './index.css';
+import DownloadGameSection from "./components/dowloadGameSection/DownloadGameSection";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <CharacterSection />
       <HistorySection/>
       <CardSection/>
+      <DownloadGameSection/>
       <Footer />
     </div>
   )
