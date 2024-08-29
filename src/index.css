@@ -58,8 +58,3 @@ img {
         --card-color-ghost: #7b149e;
     }
 }
-
-@font-face {
-    font-family: "Broken Detroit";
-    src: url(./brokendetroitrusbylyajka.otf);
-}
